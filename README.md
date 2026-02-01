@@ -1,48 +1,47 @@
 # Terminal-Angry-Birds
-A console-based Angry Birds game implemented in C++ for a university Programming Basics final project.
-🎮 Game Overview
 
-Terminal Angry Birds is a text-based version of the popular physics-based puzzle game. Players shoot projectiles to destroy enemy structures using different types of shots with realistic physics simulation.
-✨ Features
+A console-based Angry Birds game implemented in C++ for a university **Programming Basics** final project.
 
-    Three Unique Levels
+---
 
-        Level 1: Tilted Towers (Easy)
+## 🎮 Game Overview
 
-        Level 2: Bowers Castle (Medium)
+**Terminal Angry Birds** is a text-based version of the popular physics-based puzzle game. Players shoot projectiles to destroy enemy structures using different types of shots with realistic physics simulation.
 
-        Level 3: Twin Towers (Hard)
+---
 
-    Multiple Shot Types
+## ✨ Features
 
-        Normal Shot: Standard projectile
+### 🎯 Three Levels
 
-        Explosive Shot: Creates a 3x3 explosion on impact
+* **Level 1:** Tilted Towers *(Easy)*
+* **Level 2:** Bowers Castle *(Medium)*
+* **Level 3:** Twin Towers *(Hard)*
 
-        Bouncy Shot: Can bounce up to 3 times off walls
+### 💥 Multiple Shot Types
 
-    Game Systems
+* **Normal Shot:** Standard
+* **Explosive Shot:** Creates a 3x3 explosion
+* **Bouncy Shot:** Bounces off up to 3 times
 
-        Realistic physics simulation with gravity
+### 🧠 Game Systems
 
-        Score tracking and star rating system
+* Score tracking and star rating system
+* Save/load game progress
+* Level completion tracking
+* Ammo limitation per level
 
-        Save/load game progress
+---
 
-        Level completion tracking
+## 🛠️ Installation & Compilation
 
-        Ammo limitation per level
+### 📦 Prerequisites
 
-🛠️ Installation & Compilation
-Prerequisites
+* Linux / Unix-based system
+* C++ compiler (g++)
+* Terminal
 
-    Linux/Unix-based system
-
-    C++ compiler
-
-    Terminal
-
-Setting up and running
+### 🚀 Setting up and running
 
 ```bash
 git clone https://github.com/Rfannn/Terminal-Angry-Birds
@@ -51,19 +50,27 @@ g++ -o game game.cpp
 ./game
 ```
 
-💾 Save System
+---
 
-The game automatically saves progress to game_save_data.txt after completing each level. Saved data includes:
+## 💾 Save System
 
-    Current level
+The game automatically saves progress to `game_save_data.txt` after completing each level.
 
-    Total score
+**Saved data includes:**
 
-    Star ratings for each level
+* Current level
+* Total score
+* Star ratings for each level
 
-📁 Project Structure
+---
+
+## 📁 Project Structure
+
 ```text
 game.cpp              - Main game source code
-game_save_data.txt    - Save file 
-README.md            - This documentation
+game_save_data.txt    - Save file
+README.md             - This documentation
 ```
+
+---
+
